@@ -817,7 +817,7 @@ section {
 .clients {
   padding: 15px 0;
   text-align: center;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
   background-color: #4A4A4A;
   color: #fff;
   text-align: left;
