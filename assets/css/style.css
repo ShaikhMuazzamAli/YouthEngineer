@@ -42,7 +42,8 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #2487ce;
+  /* background: #2487ce; */
+  background: #ff4400d8;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -56,7 +57,8 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #3e9bdd;
+  background-image: linear-gradient(#ff020b, #fc7500);
+  /* background: #3e9bdd; */
   color: #fff;
 }
 
@@ -192,7 +194,8 @@ h6 {
   justify-content: space-between;
   padding: 10px 0 10px 30px;
   font-size: 14px;
-  color: #16507b;
+  /* color: #16507b; */
+  color: red;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -208,12 +211,13 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #2487ce;
+  color: orange;
 }
 
 .navbar .getstarted,
 .navbar .getstarted:focus {
-  background: #2487ce;
+  /* background: #2487ce; */
+  background-image: linear-gradient(#e31e24, #ef7f1a);
   padding: 8px 20px;
   margin-left: 30px;
   border-radius: 4px;
@@ -223,7 +227,8 @@ h6 {
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
   color: #fff;
-  background: #3194db;
+  /* background: #3194db; */
+  background-image: linear-gradient(#ff020b, #fc7500);
 }
 
 .navbar .dropdown ul {
@@ -399,12 +404,20 @@ h6 {
   display: block;
 }
 
+.nav-logo:hover {
+  transform:rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  /* transform: scale(1.1); */
+  transition: all 0.8s ease-in-out;
+  /* transform: matrix(1, -0.3, 0, 1, 0, 0); */
+}
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 100vh;
+  /* height: 100vh; */
   position: relative;
   background: url("../img/YE/home-bg.png") top center;
   background-size: cover;
@@ -451,11 +464,13 @@ h6 {
   transition: 0.5s;
   margin-top: 30px;
   color: #fff;
-  background: #2487ce;
+  /* background: #2487ce; */
+  background-image: linear-gradient(#e31e24, #ef7f1a);
 }
 
 #hero .btn-get-started:hover {
-  background: #3194db;
+  /* background: #3194db; */
+  background-image: linear-gradient(#ff020b, #fc7500);
 }
 
 /* .bg1 {
@@ -497,7 +512,8 @@ h6 {
 }
 
 #hero .icon-box .title a {
-  color: #124265;
+  /* color: #124265; */
+  color: red;
   transition: 0.3s;
 }
 
@@ -522,7 +538,8 @@ h6 {
 }
 
 #hero .icon-box:hover .title a {
-  color: #2487ce;
+  /* color: #2487ce; */
+  color: orange;
 }
 
 @media (min-width: 1024px) {
@@ -553,6 +570,11 @@ h6 {
   }
 }
 
+.home-img:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
@@ -576,7 +598,9 @@ section {
   text-transform: uppercase;
   margin-bottom: 20px;
   padding-bottom: 0;
-  color: #124265;
+  /* color: #124265; */
+  /* color: #FF4500; */
+  color: orangered;
 }
 
 .section-title p {
@@ -660,7 +684,9 @@ section {
   line-height: 48px;
   display: block;
   font-weight: 700;
-  color: #124265;
+  /* color: #124265; */
+  /* color: #FF4500; */
+  color: orange;
   margin-left: 80px;
   margin: auto;
 }
@@ -670,7 +696,9 @@ section {
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   font-size: 14px;
-  color: #1e6ca6;
+  /* color: #1e6ca6; */
+  /* color: #ff5349; */
+  color: red;
 }
 
 /*--------------------------------------------------------------
@@ -684,6 +712,7 @@ section {
   font-weight: 700;
   font-size: 24px;
   color: #124265;
+  /* color: #ff7349; */
 }
 
 .about-video .content ul {
@@ -996,8 +1025,17 @@ section {
 }
 
 .services .icon-box h4 a {
-  color: #124265;
+  /* color: #124265; */
+  color: red;
   transition: ease-in-out 0.3s;
+}
+
+/* .services .icon-box:hover {
+  transform: scale(1.08);
+} */
+
+.services .icon-box h4 a:hover {
+  color: orange;
 }
 
 .services .icon-box p {
@@ -1420,6 +1458,55 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Branch
+--------------------------------------------------------------*/
+
+.b1 {
+  margin-top: 50px;
+  display: flex;
+  column-gap: 20px;
+  /* flex-direction: column; */
+}
+
+.dm1 {
+  filter: blur(2px);
+  --webkit-Filter: blur(2px);
+}
+
+.b1 .box  {
+  position: relative;
+  border: 2px solid;
+  border-radius: 10px;
+}
+
+.text1 {
+  position: absolute;
+  top: 50%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+  /* background-color: rgb(0, 0, 0); */
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  font-weight: bold;
+  border: 1px solid #f1f1f1;
+  /* z-index: 2; */
+  width: 55%;
+  padding: 20px;
+  text-align: center;
+  word-break: break-all;
+  font-size: 1.0rem;
+}
+
+@media (max-width: 768px) {
+  .b1 {
+  margin-top: 50px;
+  display: flex;
+  row-gap: 20px;
+  flex-direction: column;
+}
+}
+
+/*--------------------------------------------------------------
 # Pricing
 --------------------------------------------------------------*/
 .pricing .box {
@@ -1490,7 +1577,7 @@ section {
   border-radius: 4px;
   color: #2487ce;
   transition: none;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 400;
   font-family: "Raleway", sans-serif;
   font-weight: 600;
@@ -1862,6 +1949,27 @@ section {
   padding: 0px 0px 30px;
 }
 
+/* .wapp-icon {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index: 996; */
+  /* background: #2487ce; */
+  /* background: #ff4400d8;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  transition: all 0.4s;  
+} */
+
+/* .wapp-icon i {
+  font-size: 28px;
+  color: #fff;
+  line-height: 0;
+} */
+
 .fimg1 {
   color: #fff !important;
   letter-spacing: 2px;
@@ -2017,7 +2125,8 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #2487ce;
+  /* background: #2487ce; */
+  background: #FF4500;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -2030,7 +2139,12 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #3194db;
+  background-image: linear-gradient(#ff020b, #fc7500);
+  /* background: #3194db; */
   color: #fff;
   text-decoration: none;
+}
+
+.sl-icons {
+  margin-right: 50px;
 }
