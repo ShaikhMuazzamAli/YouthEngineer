@@ -350,8 +350,8 @@ p {
 
 .box3 {
   margin-top: 30px;
-  margin-right: 20%;
-  margin-left: 20%;
+  margin-right: 10%;
+  margin-left: 10%;
   text-align: justify;
 }
 
@@ -365,12 +365,13 @@ p {
 } */
 
 .title1 {
-  
+  text-align: center;
 }
 
 .box4 {
   margin-top: 30px;
-  margin-right: 20%;
+  margin-right: 10%;
+  margin-left: 10%;
   /* margin-left: 20%; */
   text-align: justify;
 }
@@ -379,20 +380,24 @@ p {
   /* margin-right: 50%;
   margin-left: 50%; */
   margin-top: 80px;
-  text-align: right;
+  text-align: center;
 }
 
 .box5 {
+  margin-top: 30px;
+  margin-right: 10%;
+  margin-left: 10%;
   /* text-align: right; */
-  margin-left: 17%;
+  /* margin-left: 17%; */
   /* margin-right: 30%; */
-  margin-top: 50px;
 }
 
 .box6 {
-  margin-top: 50px;
-  display: flex;
-  justify-content: flex-end;
+  margin-top: 30px;
+  margin-right: 10%;
+  margin-left: 10%;
+  /* display: flex;
+  justify-content: flex-end; */
 }
 
 /*--------------------------------------------------------------
@@ -405,11 +410,13 @@ p {
 } */
 
 .title3 {
-
+  text-align: center;
 }
 
 .box7 {
-  margin-top: 50px;
+  margin-top: 30px;
+  margin-right: 10%;
+  margin-left: 10%;
 }
 
 /*--------------------------------------------------------------
@@ -422,21 +429,25 @@ p {
 } */
 
 .title4 {
-  text-align: right;
+  text-align: center;
 }
 
 .box8 {
-  margin-top: 50px;
-  /* text-align: justify; */
-  margin-left: 40%;
+  margin-top: 30px;
+  margin-right: 10%;
+  margin-left: 10%;
+  text-align: justify;
 }
 
 .box9 {
-  margin-top: 50px;
+  margin-top: 30px;
+  margin-right: 10%;
+  margin-left: 10%;
+  text-align: justify;
   /* margin-left: 10%; */
-  margin-right: 16%;
+  /* margin-right: 16%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-end; */
 }
 
 /*--------------------------------------------------------------
@@ -448,28 +459,36 @@ p {
 } */
 
 .title5 {
-
+  text-align: center;
 }
 
 .box10 {
-  margin: auto;
-  width: 70%;
-  margin-right: 50%;
-  margin-top: 50px;
+  margin-top: 30px;
+  margin-right: 10%;
+  margin-left: 10%;
+  /* margin-right: 50%;
+  margin-top: 50px; */
+  /* margin: auto;
+  width: 70%; */
+
 }
 
 .title6 {
   margin-top: 50px;
-  display: flex;
-  justify-content: flex-end;
+  text-align: center;
+  /* display: flex;
+  justify-content: flex-end; */
 }
 
 .box11 {
-  margin: auto;
-  width: 70%;
+  margin-top: 30px;
+  margin-right: 10%;
+  margin-left: 10%;
+  /* margin: auto; */
+  /* width: 70%; */
   /* margin-right: 25%; */
-  margin-left: 30%;
-  margin-top: 50px;
+  /* margin-left: 30%;
+  margin-top: 50px; */
 }
 
 /*--------------------------------------------------------------
@@ -481,34 +500,54 @@ p {
 } */
 
 .title7 {
+  text-align: center;
   /* margin-top: 50px; */
-  display: flex;
-  justify-content: flex-end;
+  /* display: flex;
+  justify-content: flex-end; */
 }
 
 .box12 {
-  margin: auto;
+  margin-top: 30px;
+  margin-right: 10%;
+  margin-left: 10%
+  /* margin: auto;
   width: 70%;
   margin-top: 50px;
-  margin-left: 30%;
+  margin-left: 30%; */
 }
 
 .box13 {
-  margin: auto;
+  margin-top: 30px;
+  margin-right: 10%;
+  margin-left: 10%
+  /* margin: auto;
   width: 70%;
   margin-top: 50px;
-  margin-left: 30%;
+  margin-left: 30%; */
 }
 
 .title8 {
   margin-top: 50px;
+  text-align: center;
+  font-weight:800 !important;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke: 1px black;
+  
+  /* color: black; */
+  /* -webkit-text-fill-color: black; Will override color (regardless of order) */
+  /* -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white; */
 }
 
 .box14 {
-  margin: auto;
+  margin-top: 30px;
+  margin-right: 10%;
+  margin-left: 10%
+  
+  /* margin: auto;
   width: 60%;
   margin-top: 50px;
-  margin-right: 50%;
+  margin-right: 50%; */
 }
 
 .text-1, .text-2, .para-1 {

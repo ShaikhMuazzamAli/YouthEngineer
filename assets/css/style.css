@@ -839,15 +839,22 @@ section {
 # Clients
 --------------------------------------------------------------*/
 
-/* .section-client {
-  margin-top: 50px;
-} */
+.section-client {
+  /* margin-top: 50px; */
+  padding-top: 20px;
+  background-color: rgb(255, 190, 68);
+  /* background-color: #FFA500; */
+}
 
 .clients {
   padding: 15px 0;
   text-align: center;
   /* margin-bottom: 50px; */
-  background-color: #4A4A4A;
+  /* background-color: #4A4A4A; */
+  /* background-color: #727272; */
+  /* background-color: orange; */
+  background-color: rgb(255, 190, 68);
+  /* background-color: #FFA500; */
   color: #fff;
   text-align: left;
 }
@@ -886,6 +893,28 @@ section {
     font-size: 12px;
     margin-top: 15px;
   }
+}
+
+/* .client-list {
+  display: flex;
+  justify-content: space-around;
+} */
+
+.c-btn {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  background-color: orangered;
+  /* background-color: #FF4433; */
+  border-radius: 15px;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.596);
+  height: 45px;
+  width: 150px;
+  padding: 5px 5px 5px 5px;
+  /* box-sizing: content-box; */
+  /* display: inline-block;
+  height: auto; */
 }
 
 /*--------------------------------------------------------------
@@ -1474,7 +1503,7 @@ section {
 }
 
 .b1 .box  {
-  
+
   position: relative;
   border: 2px solid;
   border-radius: 10px;
@@ -1498,6 +1527,30 @@ section {
   font-size: 1.0rem;
 }
 
+.branch-box1 {
+  /* padding: 50px 30px; */
+  padding: 50px 30px 30px 30px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 0 29px 0 rgba(18, 66, 101, 0.08);
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+  z-index: 1;
+}
+
+.branch-box2 {
+  /* padding: 50px 30px; */
+  padding: 50px 30px 50px 30px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 0 29px 0 rgba(18, 66, 101, 0.08);
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+  z-index: 1;
+}
+
 @media (max-width: 768px) {
   .b1 {
   margin-top: 50px;
@@ -1516,7 +1569,10 @@ section {
   border-radius: 8px;
   position: relative;
   overflow: hidden;
-  background: #fefefe;
+  /* background: #fefefe; */
+  background: #ef7f1a;
+  /* background: #ec7c1c; */
+  
   box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.1);
 }
 
@@ -1576,7 +1632,8 @@ section {
   display: inline-block;
   padding: 10px 40px;
   border-radius: 4px;
-  color: #2487ce;
+  /* color: #2487ce; */
+  color: #fff;
   transition: none;
   font-size: 12px;
   font-weight: 400;
@@ -1587,12 +1644,16 @@ section {
 }
 
 .pricing .box .btn-buy:hover {
-  background: #2487ce;
+  /* background: #2487ce; */
+  background-image: linear-gradient(red, orange);
   color: #fff;
 }
 
 .pricing .featured {
-  background: #2487ce;
+  /* background: #2487ce; */
+  background: #e31e24;
+  /* background: #e41c24; */
+  
 }
 
 .pricing .featured h3,
@@ -1614,13 +1675,34 @@ section {
 }
 
 .pricing .featured .btn-buy:hover {
-  background: #fff;
-  color: #2487ce;
+  /* background: #fff; */
+  background-image: linear-gradient( red, orange);
+  /* color: #2487ce; */
+  color: #fff;
 }
 
-.ops-btn {
-  display: flex;
-  justify-content: flex-end;
+.btn-buy {
+  /* display: flex;
+  justify-content: flex-end; */
+  /* color: orangered; */
+  background-image: linear-gradient(red, orange);
+  display: inline-block;
+  padding: 10px 40px;
+  border-radius: 4px;
+  /* color: #2487ce; */
+  color: #fff;
+  transition: none;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+  border: 2px solid #2487ce;
+  text-align: right;
+}
+
+.btn-buy:hover {
+  color: #fff;
 }
 
 /*--------------------------------------------------------------
@@ -2128,6 +2210,10 @@ section {
   color: #444444;
 }
 
+/* #footer .copyright {
+  margin-left: 100px;
+} */
+
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
@@ -2159,7 +2245,7 @@ section {
   position: fixed;
   /* width: 60px;
   height: 60px; */
-  bottom: 135px;
+  bottom: 15px;
   /* right: 15px; */
   /* background-color: #25d366;
   color: #FFF;
