@@ -844,6 +844,7 @@ section {
   padding-top: 20px;
   background-color: rgb(255, 190, 68);
   /* background-color: #FFA500; */
+  background-color: #fff;
 }
 
 .clients {
@@ -855,6 +856,7 @@ section {
   /* background-color: orange; */
   background-color: rgb(255, 190, 68);
   /* background-color: #FFA500; */
+  background-color: #fff;
   color: #fff;
   text-align: left;
 }
@@ -901,20 +903,31 @@ section {
 } */
 
 .c-btn {
-  align-items: center;
-  justify-content: center;
+  /* align-items: center;
+  justify-content: center; */
+  margin-bottom: 10px;
   text-align: center;
-  color: white;
-  background-color: orangered;
+  color: black;
+  font-weight: 500;
+  background-image: linear-gradient( #e31e25d7, #ef7d1ae5);
+  /* background-color: orangered;  */
   /* background-color: #FF4433; */
-  border-radius: 15px;
-  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.596);
+  border-radius: 8px;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.596); 
+  /* display: block; */
   height: 45px;
   width: 150px;
   padding: 5px 5px 5px 5px;
   /* box-sizing: content-box; */
-  /* display: inline-block;
-  height: auto; */
+  /* display: inline-block;  */
+  /* height: auto;  */
+  /* margin-bottom: 10px;
+  border: none;
+  cursor: pointer; */
+  /* font-size: 12px !important; */
+  /* border-radius: 5px;
+  width:150px;
+  background-color: orangered; */
 }
 
 /*--------------------------------------------------------------
@@ -1569,11 +1582,23 @@ section {
   border-radius: 8px;
   position: relative;
   overflow: hidden;
+  background-image: linear-gradient( #e31e25d7, #ef7d1ae5);
   /* background: #fefefe; */
-  background: #ef7f1a;
+  /* background: #ef7f1a; */
   /* background: #ec7c1c; */
-  
   box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.1);
+  /* width: 100%;
+  height: 100%;
+  object-fit: cover; */
+  /* position: fixed; */
+  /* left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1; */
+  /* background: rgba(255, 255, 255, 0.20);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(5px); */
 }
 
 .pricing .box h3 {
@@ -1582,7 +1607,8 @@ section {
   font-size: 18px;
   text-transform: uppercase;
   font-weight: 600;
-  color: #124265;
+  /* color: #124265; */
+  color: #fff;
 }
 
 .pricing .box h4 {
@@ -1616,6 +1642,7 @@ section {
 
 .pricing .box ul li {
   padding-bottom: 16px;
+  color: #fff;
 }
 
 .pricing .box ul .na {
@@ -1640,7 +1667,8 @@ section {
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   transition: 0.3s;
-  border: 2px solid #2487ce;
+  /* border: 2px solid #2487ce; */
+  border: 2px solid #fff;
 }
 
 .pricing .box .btn-buy:hover {
@@ -1650,8 +1678,9 @@ section {
 }
 
 .pricing .featured {
+  background-image: linear-gradient( #e31e25d7, #ef7d1ae5);
   /* background: #2487ce; */
-  background: #e31e24;
+  /* background: #e31e24; */
   /* background: #e41c24; */
   
 }
@@ -1681,11 +1710,11 @@ section {
   color: #fff;
 }
 
-.btn-buy {
+.btnbuy {
   /* display: flex;
   justify-content: flex-end; */
   /* color: orangered; */
-  background-image: linear-gradient(red, orange);
+  background-image: linear-gradient(rgba(255, 0, 0, 0.767), rgba(255, 166, 0, 0.89));
   display: inline-block;
   padding: 10px 40px;
   border-radius: 4px;

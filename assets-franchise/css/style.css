@@ -306,6 +306,8 @@ p {
   /* background-color: #111; */
   /* text-shadow: 2px 0px #11dbcf;
   border-bottom: 5px solid #11dbcf; */
+  -webkit-text-fill-color: black;
+  -webkit-text-stroke: 1px white;
 }
 
 .box {
@@ -346,6 +348,8 @@ p {
 
 .title {
   text-align: center;
+  -webkit-text-fill-color: black;
+  -webkit-text-stroke: 1px white;
 }
 
 .box3 {
@@ -366,6 +370,8 @@ p {
 
 .title1 {
   text-align: center;
+  -webkit-text-fill-color: black;
+  -webkit-text-stroke: 1px white;
 }
 
 .box4 {
@@ -381,6 +387,8 @@ p {
   margin-left: 50%; */
   margin-top: 80px;
   text-align: center;
+  -webkit-text-fill-color: black;
+  -webkit-text-stroke: 1px white;
 }
 
 .box5 {
@@ -411,6 +419,8 @@ p {
 
 .title3 {
   text-align: center;
+  -webkit-text-fill-color: black;
+  -webkit-text-stroke: 1px white;
 }
 
 .box7 {
@@ -430,6 +440,8 @@ p {
 
 .title4 {
   text-align: center;
+  -webkit-text-fill-color: black;
+  -webkit-text-stroke: 1px white;
 }
 
 .box8 {
@@ -460,6 +472,8 @@ p {
 
 .title5 {
   text-align: center;
+  -webkit-text-fill-color: black;
+  -webkit-text-stroke: 1px white;
 }
 
 .box10 {
@@ -478,6 +492,8 @@ p {
   text-align: center;
   /* display: flex;
   justify-content: flex-end; */
+  -webkit-text-fill-color: black;
+  -webkit-text-stroke: 1px white;
 }
 
 .box11 {
@@ -504,6 +520,8 @@ p {
   /* margin-top: 50px; */
   /* display: flex;
   justify-content: flex-end; */
+  -webkit-text-fill-color: black;
+  -webkit-text-stroke: 1px white;
 }
 
 .box12 {
@@ -529,12 +547,12 @@ p {
 .title8 {
   margin-top: 50px;
   text-align: center;
-  font-weight:800 !important;
-  -webkit-text-fill-color: white;
-  -webkit-text-stroke: 1px black;
+  /* font-weight:800 !important; */
+  -webkit-text-fill-color: black;
+  -webkit-text-stroke: 1px white;
   
   /* color: black; */
-  /* -webkit-text-fill-color: black; Will override color (regardless of order) */
+  /* -webkit-text-fill-color: black;  Will override color (regardless of order) */
   /* -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: white; */
 }
@@ -628,7 +646,7 @@ p {
     z-index: -1;
     /* opacity: 0.8; */
   }
-  
+
   .glass-effect {
     width: 100vw;
     height: 100vh;
