@@ -568,6 +568,34 @@ p {
   margin-right: 50%; */
 }
 
+.title9 {
+  margin-top: 50px;
+  text-align: center;
+  /* font-weight:800 !important; */
+  -webkit-text-fill-color: black;
+  -webkit-text-stroke: 1px white;
+}
+
+.box15 {
+  margin-top: 30px;
+  margin-right: 10%;
+  margin-left: 10%
+}
+
+.title10 {
+  margin-top: 50px;
+  text-align: center;
+  /* font-weight:800 !important; */
+  -webkit-text-fill-color: black;
+  -webkit-text-stroke: 1px white;
+}
+
+.box16 {
+  margin-top: 30px;
+  margin-right: 10%;
+  margin-left: 10%
+}
+
 .text-1, .text-2, .para-1 {
   color: #ffffff;
   /* color: #1b1b1b; */
@@ -683,6 +711,22 @@ p {
     to {left: unset !important;}
   }
 
+}
+
+table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  background-color: white;
+  color: black;
+}
+
+@media (max-width: 424px) {
+  table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  background-color: white;
+  color: black;
+  }
 }
 
 /*--------------------------------------------------------------
