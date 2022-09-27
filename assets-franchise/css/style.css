@@ -720,7 +720,7 @@ table, th, td {
   color: black;
 }
 
-@media (max-width: 424px) {
+/* @media (max-width: 375px) {
   table, th, td {
   border: 2px solid black;
   border-collapse: collapse;
@@ -728,6 +728,15 @@ table, th, td {
   color: black;
   }
 }
+
+@media (max-width: 320px) {
+  table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  background-color: white;
+  color: black;
+  }
+} */
 
 /*--------------------------------------------------------------
 # Navigation Menu
