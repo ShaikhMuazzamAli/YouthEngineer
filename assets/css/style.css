@@ -985,12 +985,24 @@ section {
     font-size: 12px;
     margin-top: 15px;
   }
-
 }
 
-@media (max-width: 991) {
+@media (max-width: 991px) {
   .client-list p {
     font-size: 12px;
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .client-list p {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 320px) {
+  .client-list p {
+    font-size: 9px;
     margin-top: 15px;
   }
 }
@@ -1005,12 +1017,13 @@ section {
   justify-content: center; */
   margin-bottom: 10px;
   text-align: center;
-  color: black;
-  font-weight: 500;
-  background-image: linear-gradient( #e31e25d7, #ef7d1ae5);
+  color: orangered;
+  font-weight: bold;
+  /* background-image: linear-gradient( #e31e25d7, #ef7d1ae5); */
   /* background-color: orangered;  */
   /* background-color: #FF4433; */
-  /* border-radius: 8px; */
+  border: 2px solid black;
+  border-radius: 8px;
   /* background-color: rgba(255, 255, 255, 0.95);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(5px); */
@@ -1019,7 +1032,7 @@ section {
   /* height: 45px;
   width: 150px; */
   height: 15%;
-  width: 110%;
+  max-width: 100%;
   padding: 5px 5px 5px 5px;
   /* box-sizing: content-box; */
   /* display: inline-block;  */
@@ -1031,6 +1044,11 @@ section {
   /* border-radius: 5px;
   width:150px;
   background-color: orangered; */
+}
+
+.c-btn:hover {
+  background-image: linear-gradient( #e31e25d7, #ef7d1ae5);
+  color: black;
 }
 
 /* .p-box {
@@ -1047,13 +1065,17 @@ section {
   .c-btn {
     margin-bottom: 10px;
     text-align: center;
-    color: black;
-    font-weight: 500;
-    background-image: linear-gradient( #e31e25d7, #ef7d1ae5);
+    color: orangered;
+    font-weight: bold;
+    /* background-image: linear-gradient( #e31e25d7, #ef7d1ae5); */
     box-shadow: 0 5px 8px rgba(0, 0, 0, 0.596); 
     height: 15%;
     width: 110%;
     /* padding: 5px 5px 5px 5px; */
+  }
+  .c-btn:hover {
+    background-image: linear-gradient( #e31e25d7, #ef7d1ae5);
+    color: black;
   }
 }
 
@@ -1582,7 +1604,8 @@ section {
 
 .team .member .social a {
   transition: color 0.3s;
-  color: #124265;
+  /* color: #124265; */
+  color: orangered;
   margin: 0 10px;
   display: inline-block;
 }
@@ -1709,8 +1732,8 @@ section {
   border-radius: 8px;
   position: relative;
   overflow: hidden;
-  background-image: linear-gradient( #e31e25d7, #ef7d1ae5);
-  /* background: #fefefe; */
+  /* background-image: linear-gradient( #e31e25d7, #ef7d1ae5); */
+  background: #fefefe;
   /* background: #ef7f1a; */
   /* background: #ec7c1c; */
   box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.1);
@@ -1732,6 +1755,11 @@ section {
   /* background: url("../img/YE/undraw1.svg");
   background-size: cover;
   position: relative; */
+}
+
+.pricing .box:hover {
+  background-image: linear-gradient(#e31e25d7, #ef7d1ae5);
+  
 }
 
 /* .pbox {
@@ -1989,7 +2017,8 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #2487ce;
+  /* color: #2487ce; */
+  color: black;
   float: left;
   width: 44px;
   height: 44px;
@@ -2006,14 +2035,16 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #124265;
+  /* color: #124265; */
+  color: #444444;
 }
 
 .contact .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #217bbc;
+  /* color: #217bbc; */
+  color: #444444;
 }
 
 .contact .info .email,
@@ -2024,8 +2055,10 @@ section {
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #2487ce;
-  color: #fff;
+  /* background: #2487ce;
+  color: #fff; */
+  color: orange;
+  background-image: linear-gradient(#ff020b, #fc7500);
 }
 
 .contact .php-email-form {
@@ -2451,3 +2484,4 @@ section {
 .my-float {
   margin-top: 16px;
 }
+
