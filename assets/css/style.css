@@ -4,7 +4,7 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
-
+@import url('//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css');
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -1759,7 +1759,6 @@ section {
 
 .pricing .box:hover {
   background-image: linear-gradient(#e31e25d7, #ef7d1ae5);
-  
 }
 
 /* .pbox {
