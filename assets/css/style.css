@@ -589,7 +589,7 @@ section {
 
 .section-title {
   text-align: center;
-  padding-bottom: 30px;
+  /* padding-bottom: 30px; */
 }
 
 .section-title h2 {
@@ -1060,9 +1060,9 @@ section {
 .section-client {
   /* margin-top: 50px; */
   padding-top: 20px;
-  background-color: rgb(255, 190, 68);
+  /* background-color: rgb(255, 190, 68); */
   /* background-color: #FFA500; */
-  background-color: #fff;
+  /* background-color: #fff; */
 }
 
 .clients {
@@ -1138,7 +1138,7 @@ section {
   justify-content: center; */
   /* margin-bottom: 10px; */
   text-align: center;
-  color: orangered;
+  color: black;
   font-weight: bold;
   /* background-image: linear-gradient( #e31e25d7, #ef7d1ae5); */
   /* background-color: orangered;  */
@@ -1172,10 +1172,10 @@ section {
   /* border-radius: 10px !important; */
 }
 
-.c-btn:hover {
+/* .c-btn:hover {
   background-image: linear-gradient( #e31e25d7, #ef7d1ae5);
   color: black;
-}
+} */
 
 /* .p-box {
   background: url("../img/YE/bg-img2.png");
@@ -1196,7 +1196,7 @@ section {
   .c-btn {
     margin-bottom: 10px;
     text-align: center;
-    color: orangered;
+    color: black;
     font-weight: bold;
     /* background-image: linear-gradient( #e31e25d7, #ef7d1ae5); */
     box-shadow: 0 5px 8px rgba(0, 0, 0, 0.596); 
@@ -1205,28 +1205,31 @@ section {
     margin: 10px auto;
     /* padding: 5px 5px 5px 5px; */
   }
-  .c-btn:hover {
+  /* .c-btn:hover {
     background-image: linear-gradient( #e31e25d7, #ef7d1ae5);
     color: black;
-  }
+  } */
 }
 
 .c-btn1 {
   text-align: center;
-  color: orangered;
+  color: black;
   font-weight: bold;
-  border: 2px solid black;
-  border-radius: 8px;
+  /* border: 2px solid black; */
+  /* border-radius: 8px; */
   box-shadow: 0 5px 8px rgba(0, 0, 0, 0.596); 
   height: 40%;
   max-width: 50%;
   margin: 10px auto;
+  border: 1px solid transparent;
+  border-image: linear-gradient(90deg, hsla(17, 95%, 50%, 1) 0%, hsla(42, 94%, 57%, 1) 100%);;
+  border-image-slice: 1;
 }
 
-.c-btn1:hover {
+/* .c-btn1:hover {
   background-image: linear-gradient( #e31e25d7, #ef7d1ae5);
   color: black;
-}
+} */
 
 @media (max-width: 768px) {
   .c-btn1 p {
@@ -1237,17 +1240,17 @@ section {
   .c-btn1 {
     margin-bottom: 10px;
     text-align: center;
-    color: orangered;
+    color: black;
     font-weight: bold;
     box-shadow: 0 5px 8px rgba(0, 0, 0, 0.596); 
     height: 10%;
     width: 110%;
     margin: 10px auto;
   }
-  .c-btn1:hover {
+  /* .c-btn1:hover {
     background-image: linear-gradient( #e31e25d7, #ef7d1ae5);
     color: black;
-  }
+  } */
 }
 
 @media (min-width: 769px) {
@@ -1259,17 +1262,17 @@ section {
   .c-btn1 {
     margin-bottom: 10px;
     text-align: center;
-    color: orangered;
+    color: black;
     font-weight: bold;
     box-shadow: 0 5px 8px rgba(0, 0, 0, 0.596); 
     height: 10%;
     width: 110%;
     margin: 10px auto;
   }
-  .c-btn1:hover {
+  /* .c-btn1:hover {
     background-image: linear-gradient( #e31e25d7, #ef7d1ae5);
     color: black;
-  }
+  } */
 }
 
 @media (min-width: 1024px) {
@@ -1281,17 +1284,17 @@ section {
   .c-btn1 {
     margin-bottom: 10px;
     text-align: center;
-    color: orangered;
+    color: black;
     font-weight: bold;
     box-shadow: 0 5px 8px rgba(0, 0, 0, 0.596); 
     height: 10%;
     width: 110%;
     margin: 10px auto;
   }
-  .c-btn1:hover {
+  /* .c-btn1:hover {
     background-image: linear-gradient( #e31e25d7, #ef7d1ae5);
     color: black;
-  }
+  } */
 }
 
 .sectiontitle h2 {
@@ -2022,9 +2025,9 @@ section {
   border-image-slice: 1;
 }
 
-.pricing .box:hover {
+/* .pricing .box:hover {
   background-image: linear-gradient(#e31e25d7, #ef7d1ae5);
-}
+} */
 
 /* .pbox {
   background: url("../img/YE/bg-img2.png");
@@ -2165,7 +2168,7 @@ section {
   justify-content: flex-end; */
   /* color: orangered; */
   /* background-image: linear-gradient(rgba(255, 0, 0, 0.767), rgba(255, 166, 0, 0.89)); */
-  background-image: linear-gradient(#e31e24, #ef7f1a);
+  /* background-image: linear-gradient(#e31e24, #ef7f1a); */
   display: inline-block;
   padding: 10px 40px;
   border-radius: 4px;
@@ -2186,7 +2189,7 @@ section {
 }
 
 .btnbuy:hover {
-  color: black;
+  color: white;
   /* background-image: linear-gradient(#e31e25d5, #ef7d1ac4); */
   background-image: linear-gradient(red, orange);
   transform: scale(1.1);
@@ -2850,4 +2853,16 @@ section {
   }
 } 
 
+.service-cards {
+  transition: 0.3s;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  box-shadow: 0 5px 8px rgb(0 0 0 / 60%);
+  background: #111;
+  /* margin-top: 50px; */
+}
 
+.service-cards:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
