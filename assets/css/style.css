@@ -2859,10 +2859,26 @@ section {
   height: 100%;
   border-radius: 5px;
   box-shadow: 0 5px 8px rgb(0 0 0 / 60%);
-  background: #111;
+  /* background: #111; */
+  background-image: linear-gradient(#ff020bc2, #fc7500d1);
   /* margin-top: 50px; */
+
 }
 
 .service-cards:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.services1 .icon-box {
+  text-align: center;
+  padding: 30px 20px 30px 20px;
+  transition: all ease-in-out 0.3s;
+  background: #fff;
+  box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
+}
+
+.text {
+  position: absolute;
+  top: 150px;
+  left: 150px;
 }
