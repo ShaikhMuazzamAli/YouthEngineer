@@ -2921,27 +2921,81 @@ section {
 @media (max-width: 425px) {
   .text {
     position: absolute;
-    top: 40px;
-    left: 18px;
-    font-size: 13px;
+    top: 60px;
+    left: 20px;
+    font-size: 12px;
+  }
+  .text1 {
+    font-size: 15px;
+  }
+  .text2 {
+    font-size: 15px;
+  }
+  .box1 {
+    height: 164px;
+  }
+  .box2 {
+    height: 150px;
+  }
+  .img-1 {
+    margin-top: 30px;
+  }
+  .img-2 {
+    height: 150px;
   }
 }
 
 @media (max-width: 375px) {
   .text {
     position: absolute;
-    top: 30px;
-    left: 13px;
-    font-size: 12px;
+    top: 60px;
+    left: 20px;
+    font-size: 10px;
+  }
+  .text1 {
+    font-size: 15px;
+  }
+  .text2 {
+    font-size: 15px;
+  }
+  .box1 {
+    height: 150px;
+  }
+  .box2 {
+    height: 150px;
+  }
+  .img-1 {
+    margin-top: 30px;
+  }
+  .img-2 {
+    height: 150px;
   }
 }
 
 @media (max-width: 320px) {
   .text {
     position: absolute;
-    top: 25px;
-    left: 14px;
-    font-size: 10px;
+    top: 60px;
+    left: 20px;
+    font-size: 9px;
+  }
+  .text1 {
+    font-size: 15px;
+  }
+  .text2 {
+    font-size: 15px;
+  }
+  .box1 {
+    height: 150px;
+  }
+  .box2 {
+    height: 150px;
+  }
+  .img-1 {
+    margin-top: 30px;
+  }
+  .img-2 {
+    height: 150px;
   }
 }
 
