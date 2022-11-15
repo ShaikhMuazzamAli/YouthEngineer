@@ -3149,3 +3149,59 @@ section {
   margin-left: -3px;
   /* top: 0; */
 }
+
+.color {
+  background-color: rgba(255, 193, 7, 0.705);
+}
+
+.titles h2 {
+  /* font-size: 100px; */
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  color: orangered;
+  text-align: center;
+}
+
+@media (min-width: 1200px) {
+  .titles h2 {
+    font-size: 95px;
+  }
+}
+
+@media (min-width: 992px) {
+  .titles h2 {
+    font-size: 70px;
+  }
+}
+
+@media (max-width: 991px) {
+  .titles h2 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .titles h2 {
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 425px) {
+  .titles h2 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 375px) {
+  .titles h2 {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 320px) {
+  .titles h2 {
+    font-size: 22px;
+  }
+}
