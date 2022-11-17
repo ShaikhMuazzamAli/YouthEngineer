@@ -36,6 +36,12 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" />
+  <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.0/jquery.cookie.js"></script>
+
   <!-- =======================================================
   * Template Name: OnePage - v4.8.1
   * Template URL: https://bootstrapmade.com/onepage-multipurpose-bootstrap-template/
@@ -56,7 +62,7 @@
       
         <!-- <div class="container-fluid glass-effect"></div> -->
 
-        <marquee class="mt-5" width="100%" direction="right" scrollamount="12" height="100px" style="color: red; font-weight: 700;">
+        <marquee class="mt-3" width="100%" direction="right" scrollamount="12" height="30px" style="color: red; font-weight: 700;">
             This Page is under construction.
         </marquee>
 
@@ -137,14 +143,14 @@
                     Biometrics Attendance with Access Control @ Rs. 1500/- per unit. <br>
                     Video Door Phone @ Rs. 750/- per unit. <br>
                     Intruder Alarm System, Boom Barrier, etc will discuss and decide on phone or site visits. -->
-                    <ul style="color: black; font-weight: 600;">
+                    <ul style="color: white; font-weight: 600;">
                         <li>HD CCTV and DVR @ Rs. 350/- per unit.</li>
                         <li>IP CCTV and NVR @ Rs. 500/- per unit.</li>
                         <li>Biometrics Attendance Machine @ Rs. 750/- per unit.</li>
                         <li>Biometrics Attendance with Access Control @ Rs. 1500/- per unit.</li>
                         <li>Video Door Phone @ Rs. 750/- per unit.</li>
                     </ul>
-                    <p  style="color: black; font-weight: 600;">Intruder Alarm System, Boom Barrier, etc will discuss and decide on phone or site visits.</p>
+                    <p  style="color: white; font-weight: 600;">Intruder Alarm System, Boom Barrier, etc will discuss and decide on phone or site visits.</p>
                     </p>
             </div>
 
@@ -177,6 +183,42 @@
         </section>          
     </main>
 
+    <a id="popuplink" href="#inline" style="display:none;"></a>
+
+    <div id="inline" style="display:none;text-align:center;">
+
+        <img src="https://thebeachfurniture.co.nz/newbeach-logo.png" alt="" id="logo">
+
+        <h3 style="margin-top:20px;color: red;">This page is under construction</h3>
+
+        <!-- <p>But we will continue providing the same beautifully crafted character furniture</p> -->
+        
+        <p>
+            <a href="javascript:;" onclick="jQuery.fancybox.close();"
+                style="background-color:#333;padding:5px 10px;color:#fff;border-radius:5px;text-decoration:none;">Close</a>
+        </p>
+
+    </div>
+
+    <script>
+        jQuery(document).ready(function () {
+            function openFancybox() {
+                setTimeout(function () {
+                    jQuery('#popuplink').trigger('click');
+                }, 500);
+            };
+            var visited = jQuery.cookie('visited');
+            if (visited == 'yes') {
+                // second page load, cookie active
+            } else {
+                openFancybox(); // first page load, launch fancybox
+            }
+            jQuery.cookie('visited', 'yes', {
+                expires: 365 // the number of days cookie  will be effective
+            });
+            jQuery("#popuplink").fancybox({ modal: true, maxWidth: 400, overlay: { closeClick: true } });
+        });
+    </script>
 
     <!-- Vendor JS Files -->
   <script src="assets-franchise/vendor/purecounter/purecounter_vanilla.js"></script>

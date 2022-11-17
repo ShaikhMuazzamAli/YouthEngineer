@@ -368,6 +368,43 @@ h6 {
 .navbar-mobile .getstarted,
 .navbar-mobile .getstarted:focus {
   margin: 15px;
+  margin-right: 120px;
+}
+
+.navbar-mobile .btn1 {
+  padding: 8px 41px !important;
+}
+
+@media (max-width: 768px) {
+  .navbar-mobile .getstarted,
+  .navbar-mobile .getstarted:focus {
+    /* margin: 15px; */
+    margin-right: 570px;
+}
+}
+
+@media (max-width: 425px) {
+  .navbar-mobile .getstarted,
+  .navbar-mobile .getstarted:focus {
+    /* margin: 15px; */
+    margin-right: 225px;
+}
+}
+
+@media (max-width: 375px) {
+  .navbar-mobile .getstarted,
+  .navbar-mobile .getstarted:focus {
+    /* margin: 15px; */
+    margin-right: 175px;
+}
+}
+
+@media (max-width: 320px) {
+  .navbar-mobile .getstarted,
+  .navbar-mobile .getstarted:focus {
+    /* margin: 15px; */
+    margin-right: 125px;
+}
 }
 
 .navbar-mobile .dropdown ul {
@@ -2200,6 +2237,7 @@ section {
   background-image: linear-gradient(red, orange);
   transform: scale(1.1);
   transition: all 0.3s ease-in-out;
+  box-shadow: 0 5px 8px rgb(0 0 0 / 60%);
 }
 
 .btn-buy:hover {
@@ -3064,17 +3102,17 @@ section {
 }
 
 .main-title {
-  color: black;
+  color: white;
   font-weight: 700;
 }
 
 .sub-title {
-  color: black;
+  color: white;
   font-weight: 600;
 }
 
 .main-para {
-  color: black;
+  color: white;
   font-weight: 600;
 }
 
@@ -3151,7 +3189,7 @@ section {
 }
 
 .color {
-  background-color: rgba(255, 193, 7, 0.705);
+  background-color: black;       /* rgba(255, 193, 7, 0.705) */
 }
 
 .titles h2 {
